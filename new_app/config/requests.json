@@ -3,10 +3,10 @@
         "schema": {
             "protocol": "https",
             "method": "GET",
-            "host": "partnerchampion.freshdesk.com",
+            "host": "huntch.freshdesk.com",
             "path": "/api/v2/ticket_fields",
             "headers": {
-                "Authorization": "Basic <%= encode(iparam.apiKey) %>",
+                "Authorization": "Basic <%= encode(iparam.api_Key) %>",
                 "Content-Type": "application/json"
             }
         },
